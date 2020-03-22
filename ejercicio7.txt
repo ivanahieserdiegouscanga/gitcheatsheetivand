@@ -8,7 +8,7 @@ int main(int argc, char** argv)
  printf("You have %d bugs at the imaginary rate of %f.\n",
  bugs, bug_rate);
 
- long universe_of_defects = 1L * 1024L * 1024L * 1024L;
+ unsigned long universe_of_defects = 1L * 10233334L * 10333324L * 1033333324L;
 
  printf("The entire universe has %ld bugs.\n",
  universe_of_defects);
@@ -34,3 +34,6 @@ int main(int argc, char** argv)
  return 0;
 
 }
+//you can multiply a number and a character  because  the  character is recognized by the coumputer like an acci
+//Integer Overflow is the condition that occurs when the result of an arithmetic operation, such as multiplication or addition, exceeds the maximum size of the integer type used to store it.
+

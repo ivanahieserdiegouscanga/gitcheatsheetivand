@@ -17,3 +17,7 @@ int main(int argc, char *argv[])
  }
  return 0;
 }
+
+//data type for loopThe initial value of the for loop is performed only once.The condition is a Boolean expression that tests and compares the counter to a fixed value after each iteration, stopping the for loop when false is returned. The incrementation/decrementation increases (or decreases) the counter by a set value.
+//The comma as a pointer is used to separate the elements in the parameter lists of a function
+//Semicolon; is the end of sentence sign. Any legal expression 
