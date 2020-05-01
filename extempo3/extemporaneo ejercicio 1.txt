@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int maxValueF(int a,int b,int c,int d){
+int maxValue=a;
+ if(b>a){
+maxValue=b;
+ }
+  if(c>b){
+maxValue=c;
+  }
+    if(d>a)return a;{
+maxValue=d;
+}
+printf("valor maximo: %d", maxValue);
+}
+int main() {
+    int a , b, c, d, myMaxValue;
+    srand(time(NULL)); 
+    int test = rand()%10;
+    a=rand();
+    b=rand();
+    c=rand();
+    d=rand();
+    printf("valor a: %d \n",a);
+    printf("valor b: %d \n",b);
+    printf("valor c: %d \n",c);
+    printf("valor d: %d \n",d);
+    myMaxValue=maxValueF(a, b, c, d);
+    return 0;
+}
+
